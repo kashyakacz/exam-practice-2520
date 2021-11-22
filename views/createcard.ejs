@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>createCard</title>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/luxonauta/luxa@1.1/dist/expanded/luxa.css"
+  />
+  <link rel="stylesheet" href="styles.css" />
+
+  </head>
+  <body>
+    <h1><b>Create your DevCard</b></h1>
+    <div class = "grid-container">
+      <div>
+        <form action="/action_page.php">
+        <input type="text" id="fullname" name="full-name" placeholder = "Your Full Name"><br>
+        <input type="text" id="AboutMe" name="About-me" placeholder = "About Me"><br><br>
+
+
+       <input type="radio" id="html" name="tech_know" value="HTML">
+       <label for="html">HTML</label><br>
+       <input type="radio" id="css" name="tech_know" value="CSS">
+       <label for="css">CSS</label><br>
+       <input type="radio" id="javascript" name="tech_know" value="JS">
+       <label for="js">JS</label>
+       <input type="radio" id="github" name="tech_know" value="Git">
+       <label for="git">Git</label>
+       <input type="radio" id="React" name="tech_know" value="React">
+       <label for="react">React</label>
+       <input type="radio" id="Node" name="tech_know" value="Node.js">
+       <label for="node.js">Node.js</label>
+
+       <input type="text" id="git-url" name="Github-URL" placeholder = "Github URL"><br>
+       <input type="text" id="twitter" name="Twitter-URL" placeholder = "Twitter URL"><br><br>
+       <input type="text" id="fav-books" name="Fav-Books" placeholder = "Favourite Books (Seperate by comma)"><br>
+       <input type="text" id="fav-artists" name="Fav-Artists" placeholder = "Favourite Artists (Seperate by comma)"><br><br>
+  
+       </form> 
+       <button type="create-button">Create Site</button>
+      </div>
+  
+
+  </body>
+</html>
